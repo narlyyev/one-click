@@ -1,0 +1,53 @@
+.navbar-toggler {
+    border: 0;  
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.line {
+    position: relative;
+}
+
+.line::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 1px;
+    top: 23px;
+    width: 52px;
+    left: 0px;
+    background-color: #6C757D;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 15px;
+}
+
+.bi-lock::before {
+    position: relative!important;
+    top: 8px!important;
+    left: 12px!important;
+}
+
+.bi-code-slash::before {
+    position: relative!important;
+    top: 8px!important;
+    left: 12px!important;
+}
+
+.bi-globe2::before {
+    position: relative!important;
+    top: 8px!important;
+    left: 12px!important;
+}
+
+.bi-database::before {
+    position: relative!important;
+    top: 8px!important;
+    left: 12px!important;
+}
