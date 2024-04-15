@@ -6,21 +6,6 @@
     box-shadow: none;
 }
 
-.line {
-    position: relative;
-}
-
-.line::after {
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 1px;
-    top: 23px;
-    width: 52px;
-    left: 0px;
-    background-color: #6C757D;
-}
-
 .icon {
     width: 40px;
     height: 40px;
